@@ -5,17 +5,29 @@
 	letter-spacing: 1px;
 }
 
+.sectionWithBackground {
+	background-color: #3a3a57;
+	color: #fff;
+}
+
 .section {
-  padding: 100px 0;
+  padding: 50px 0;
+}
+
+.justifiedText {
+	text-align: justify;
+}
+
+.pageTitle {
+	color: #f5bb00;
+}
+
+.pageSubtitle {
+	color: #48bb82;
 }
 
 .aboutImage {
   max-width: 100%;   
-}
-
-.contactSection {
-	background-color: #3a3a57;
-	color: #fff;
 }
 
 .contactButton {
@@ -64,8 +76,19 @@
   color: #fff;
 }
 
-.navbar-main,
-.navbar-main:hover {
+#navigation li a:hover {
+  font-style: italic;
+}
+
+.active {
+	color: #f04a63 !important;
+}
+
+.navbarMain,
+.navbarMain:hover {
+	margin-right: 50px;
+	font-size: larger;
+	font-weight: 800;
   color: #fff;
 }
 
